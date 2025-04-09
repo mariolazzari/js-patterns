@@ -16,3 +16,22 @@ In JavaScript, functions are indeed first-class citizens. This is a fundamental 
 
 ### Callbacks
 
+A callback function is a function that is passed as an argument to another function and is executed at a later point in tim
+
+## Creational patterns
+
+Control the creation process of an object
+
+### Class
+
+```js
+class Car {
+  constructor(doors, engine, color) {
+    this.doors = doors;
+    this.engine = engine;
+    this.color = color;
+  }
+}
+
+const aygoX = new Car(4, "3", "azure");
+```
