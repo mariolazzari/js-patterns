@@ -81,3 +81,95 @@ class Car {
 const civic = new Car(4, "V6", "grey");
 const honda = new Car(2, "V8", "red");
 ```
+
+### Factory
+
+It provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created
+
+```js
+class Car {
+  constructor(doors, engine, color) {
+    this.doors = doors;
+    this.engine = engine;
+    this.color = color;
+  }
+}
+
+class carFactory {
+  createCar(type) {
+    switch (type) {
+      case "civic":
+        return new Car(4, "V6", "grey");
+      case "honda":
+        return new Car(2, "V8", "red");
+    }
+  }
+}
+
+const factory = new carFactory();
+const myHonda = factory.createCar("honda");
+```
+
+### Abstract factory
+
+It provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+```js
+class Car {
+  constructor(doors, engine, color) {
+    this.doors = doors;
+    this.engine = engine;
+    this.color = color;
+  }
+}
+
+class CarFactory {
+  createCar(type) {
+    switch (type) {
+      case "civic":
+        return new Car(4, "V6", "grey");
+      case "honda":
+        return new Car(2, "V8", "red");
+    }
+  }
+}
+
+class SUV {
+  constructor(doors, engine, color) {
+    this.doors = doors;
+    this.engine = engine;
+    this.color = color;
+  }
+}
+
+class SuvFactory {
+  createCar(type) {
+    switch (type) {
+      case "cx5":
+        return new Car(4, "V6", "grey");
+      case "sante fe":
+        return new Car(2, "V8", "red");
+    }
+  }
+}
+
+const carFactory = new CarFactory();
+const suvFactory = new SuvFactory();
+
+const autoManufacturer = (type, model) => {
+  switch (type) {
+    case "car":
+      return carFactory.createCar(model);
+    case "suv":
+      return suvFactory.createCar(model);
+  }
+};
+
+const cx5 = autoManufacturer("suv", "cx5");
+```
+
+## Structural patterns
+
+Code organization
+
+### Module
