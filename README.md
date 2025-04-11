@@ -182,5 +182,13 @@ Classes containing methods that can be used by other classes without being the p
 
 ### Facade
 
- It provides a simplified interface to a more complex subsystem.
+It provides a simplified interface to a more complex subsystem.
 
+### Flyweight
+
+It aims to minimize memory usage and improve performance by sharing as much data as possible with other similar objects.
+
+### Decorator
+
+It allows you to dynamically add behavior to an object without modifying its structure. 
+[Doc](https://www.typescriptlang.org/docs/handbook/decorators.html)
