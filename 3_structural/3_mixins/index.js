@@ -36,7 +36,7 @@ class SuvFactory {
   }
 }
 
-let carMixin = {
+const carMixin = {
   revEngine() {
     console.log(`The ${this.engine} engine is doing Vroom Vroom!`);
   },

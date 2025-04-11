@@ -174,4 +174,13 @@ Code organization
 
 ### Module
 
+Self-contained units of code that encapsulate functionality and data
+
 ### Mixins
+
+Classes containing methods that can be used by other classes without being the parent class. 
+
+### Facade
+
+ It provides a simplified interface to a more complex subsystem.
+
