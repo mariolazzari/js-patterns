@@ -222,3 +222,12 @@ It defines a one-to-many dependency between objects so that when one object (the
 ### State
 
 It allows an object to alter its behavior when its internal state changes.
+
+### Chain of responsability
+
+It lets you pass requests along a chain of handlers
+
+### Iterator
+
+It provides a way to access the elements of an aggregate object (like a list, set, or tree) sequentially without exposing its underlying representation.
+
