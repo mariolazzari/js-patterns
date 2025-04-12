@@ -219,3 +219,6 @@ Comunications between objects
 
 It defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (the observers) are notified and updated.
 
+### State
+
+It allows an object to alter its behavior when its internal state changes.
