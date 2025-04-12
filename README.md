@@ -192,3 +192,22 @@ It aims to minimize memory usage and improve performance by sharing as much data
 
 It allows you to dynamically add behavior to an object without modifying its structure. 
 [Doc](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
+### MVC
+
+- Model: data
+- View: ui
+- Controller: logic
+
+### MVP
+
+- Model: data
+- View: ui
+- Presenter: logic
+
+### MVVM
+
+- Model: data
+- View: stateless
+- View Model: statefull
+  
