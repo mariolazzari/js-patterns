@@ -211,3 +211,8 @@ It allows you to dynamically add behavior to an object without modifying its str
 - View: stateless
 - View Model: statefull
   
+## Behavioral patterns
+
+Comunications between objects
+
+### 
