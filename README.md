@@ -215,4 +215,7 @@ It allows you to dynamically add behavior to an object without modifying its str
 
 Comunications between objects
 
-### 
+### Observer
+
+It defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (the observers) are notified and updated.
+
