@@ -231,3 +231,18 @@ It lets you pass requests along a chain of handlers
 
 It provides a way to access the elements of an aggregate object (like a list, set, or tree) sequentially without exposing its underlying representation.
 
+### Strategy
+
+It efines a family of algorithms, puts each of them into a separate class, and makes their objects interchangeable. 
+
+### Memento
+
+It provides the ability to restore an object to its previous state (undo via rollback) without 1  violating its encapsulation. 
+
+### Mediator
+
+It defines an object that encapsulates how a set of objects interact.
+
+### Command
+
+It turns a request into a stand-alone object that contains all the information about the request.
